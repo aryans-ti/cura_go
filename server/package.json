@@ -1,0 +1,10 @@
+{
+  "name": "chat-api-server",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Secure Express backend for AI chatbot with Google Gemini API",
+  "main": "server.ts",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CuraGo - Healthcare at your fingertips</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+          Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      
+      #error-message {
+        display: none;
+        padding: 20px;
+        margin: 20px;
+        background: #ef4444;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="error-message">
+      <h1>Loading Error</h1>
+      <p>There was a problem loading the application. This could be due to JavaScript errors.</p>
+      <p>Try refreshing the page or clearing your browser cache.</p>
+      <p>Also check your browser console for any error messages.</p>
+    </div>
+    
+    <div id="root"></div>
+    
+    <script>
+      // Show error message if content doesn't load in 3 seconds
+      setTimeout(function() {
+        const rootContent = document.getElementById('root');
+        const errorMessage = document.getElementById('error-message');
+        
+        if (rootContent && !rootContent.children.length) {
+          errorMessage.style.display = 'block';
+          console.error('Content failed to load within timeout period');
+        }
+      }, 3000);
+    </script>
+    
+    <!-- Main React application -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

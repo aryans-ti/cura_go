@@ -1,0 +1,62 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#paint0_radial)" />
+  
+  <!-- Robot Head -->
+  <rect x="50" y="40" width="100" height="95" rx="15" fill="#4F87FF" stroke="#2D5BD7" stroke-width="2"/>
+  <rect x="55" y="45" width="90" height="85" rx="10" fill="#6A9CFF" stroke="#2D5BD7" stroke-width="1"/>
+  
+  <!-- Robot Ears/Antenna -->
+  <rect x="40" y="70" width="10" height="25" rx="5" fill="#4F87FF" stroke="#2D5BD7" stroke-width="1"/>
+  <rect x="150" y="70" width="10" height="25" rx="5" fill="#4F87FF" stroke="#2D5BD7" stroke-width="1"/>
+  <circle cx="45" cy="65" r="7" fill="#FF6B6B" stroke="#D83A3A" stroke-width="1">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="155" cy="65" r="7" fill="#FF6B6B" stroke="#D83A3A" stroke-width="1">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Robot Face -->
+  <!-- Eyes -->
+  <circle cx="75" cy="75" r="12" fill="white" stroke="#2D5BD7" stroke-width="1"/>
+  <circle cx="125" cy="75" r="12" fill="white" stroke="#2D5BD7" stroke-width="1"/>
+  <circle cx="75" cy="75" r="6" fill="#333">
+    <animate attributeName="cy" values="73;77;73" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="125" cy="75" r="6" fill="#333">
+    <animate attributeName="cy" values="73;77;73" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Smile -->
+  <path d="M75 100 Q100 120 125 100" stroke="#333" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <!-- Robot Body -->
+  <rect x="60" y="135" width="80" height="40" rx="10" fill="#4F87FF" stroke="#2D5BD7" stroke-width="2"/>
+  
+  <!-- Body Details -->
+  <circle cx="100" cy="150" r="10" fill="#6A9CFF" stroke="#2D5BD7" stroke-width="1"/>
+  <circle cx="100" cy="150" r="5" fill="#FF6B6B">
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Neck -->
+  <rect x="85" y="125" width="30" height="15" rx="5" fill="#4F87FF" stroke="#2D5BD7" stroke-width="1"/>
+  
+  <!-- Decorative Patterns -->
+  <rect x="70" y="145" width="10" height="5" rx="2" fill="white"/>
+  <rect x="120" y="145" width="10" height="5" rx="2" fill="white"/>
+  <rect x="70" y="155" width="10" height="5" rx="2" fill="white"/>
+  <rect x="120" y="155" width="10" height="5" rx="2" fill="white"/>
+  
+  <!-- Medical Symbol -->
+  <rect x="95" y="95" width="10" height="20" rx="2" fill="#FF6B6B"/>
+  <rect x="90" y="100" width="20" height="10" rx="2" fill="#FF6B6B"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 100) rotate(90) scale(100)">
+      <stop offset="0" stop-color="#E1F5FE"/>
+      <stop offset="1" stop-color="#B3E5FC"/>
+    </radialGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,80 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#paint0_radial)" />
+
+  <!-- Hair Back -->
+  <path d="M55 93C55 69 75 50 100 50C125 50 145 69 145 93V110C145 110 135 120 100 120C65 120 55 110 55 110V93Z" fill="#8B5CF6" />
+  
+  <!-- Face -->
+  <circle cx="100" cy="95" r="45" fill="url(#paint1_linear)" />
+  
+  <!-- Ears -->
+  <ellipse cx="55" cy="95" rx="7" ry="12" fill="url(#paint2_linear)" />
+  <ellipse cx="145" cy="95" rx="7" ry="12" fill="url(#paint3_linear)" />
+  
+  <!-- Hair Front -->
+  <path d="M145 80C145 69 125 60 100 60C75 60 55 69 55 80V85C55 74 75 65 100 65C125 65 145 74 145 85V80Z" fill="#7C3AED" />
+  <path d="M65 83C65 83 60 100 65 110" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" />
+  <path d="M80 75C80 75 75 95 80 105" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" />
+  <path d="M135 83C135 83 140 100 135 110" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" />
+  <path d="M120 75C120 75 125 95 120 105" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" />
+  <path d="M55 85C55 70 75 58 100 58C125 58 145 70 145 85" stroke="#7C3AED" stroke-width="8" />
+  
+  <!-- Eyes -->
+  <ellipse cx="82" cy="92" rx="8" ry="9" fill="white" />
+  <ellipse cx="118" cy="92" rx="8" ry="9" fill="white" />
+  
+  <!-- Pupils -->
+  <circle cx="82" cy="92" r="4" fill="#333333">
+    <animate attributeName="cx" values="80;84;80" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="118" cy="92" r="4" fill="#333333">
+    <animate attributeName="cx" values="116;120;116" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Blush -->
+  <circle cx="70" cy="102" r="6" fill="#FF9999" opacity="0.5" />
+  <circle cx="130" cy="102" r="6" fill="#FF9999" opacity="0.5" />
+  
+  <!-- Smile -->
+  <path d="M85 110 Q100 120 115 110" stroke="#333333" stroke-width="3" stroke-linecap="round" fill="none" />
+  
+  <!-- Neck -->
+  <rect x="90" y="115" width="20" height="15" fill="url(#paint4_linear)" />
+  
+  <!-- Shirt -->
+  <path d="M60 150C60 130 80 125 100 125C120 125 140 130 140 150V170H60V150Z" fill="url(#paint5_linear)" />
+  
+  <!-- Shirt Details -->
+  <circle cx="100" cy="135" r="6" fill="white" />
+  <path d="M94 135H106" stroke="#6D28D9" stroke-width="2" />
+  <path d="M100 129V141" stroke="#6D28D9" stroke-width="2" />
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 100) rotate(90) scale(100)">
+      <stop offset="0" stop-color="#F5F3FF" />
+      <stop offset="1" stop-color="#DDD6FE" />
+    </radialGradient>
+    <linearGradient id="paint1_linear" x1="100" y1="50" x2="100" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD6B1" />
+      <stop offset="1" stop-color="#FFC299" />
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="55" y1="83" x2="55" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD6B1" />
+      <stop offset="1" stop-color="#FFC299" />
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="145" y1="83" x2="145" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD6B1" />
+      <stop offset="1" stop-color="#FFC299" />
+    </linearGradient>
+    <linearGradient id="paint4_linear" x1="100" y1="115" x2="100" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFC299" />
+      <stop offset="1" stop-color="#FFB380" />
+    </linearGradient>
+    <linearGradient id="paint5_linear" x1="100" y1="125" x2="100" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#6D28D9" />
+    </linearGradient>
+  </defs>
+</svg> 
